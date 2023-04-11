@@ -1,0 +1,121 @@
+{
+  "id": "3161149",
+  "name": "mytest",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577313",
+      "name": "加号1",
+      "font_class": "jiahao1",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "577350",
+      "name": "朋友",
+      "font_class": "pengyou",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "577354",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "577357",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "577359",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "577364",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "577365",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "577368",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "577374",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e759",
+      "unicode_decimal": 59225
+    },
+    {
+      "icon_id": "577379",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "579624",
+      "name": "信用卡",
+      "font_class": "xinyongqia",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "579741",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "579920",
+      "name": "Android更多",
+      "font_class": "androidgengduo",
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "579954",
+      "name": "类目",
+      "font_class": "leimu",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    },
+    {
+      "icon_id": "592049",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e790",
+      "unicode_decimal": 59280
+    },
+    {
+      "icon_id": "593378",
+      "name": "赞同",
+      "font_class": "zantong",
+      "unicode": "e794",
+      "unicode_decimal": 59284
+    }
+  ]
+}

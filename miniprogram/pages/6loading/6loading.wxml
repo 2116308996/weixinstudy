@@ -1,0 +1,11 @@
+<!--pages/6loading/6loading.wxml-->
+<text>pages/6loading/6loading.wxml</text>
+<view>
+  <text>count的值是{{count}}</text>
+</view>
+<button bindtap="addcount">增加</button>
+<view class="box">
+  <view wx:for="{{colorlist}}" wx:key="item" style="background-color: {{item}};">
+    {{item}}
+  </view>
+</view>

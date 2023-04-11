@@ -1,0 +1,36 @@
+<!--pages/5shouye/5shouye.wxml-->
+<view>
+  <view>
+    <swiper circular class="header" indicator-dots="true">
+      <swiper-item wx:for="{{swiperlist}}" wx:key="item">
+        <image src="{{item.url}}" style="width: 100%;height: 200px;" mode="aspectFill" />
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="main">
+    <view>
+        <image class="main-image" src="../asset/font-png/taobao.png" mode="" />
+        <text>淘宝</text>
+    </view>
+    <view>
+        <image class="main-image" src="../asset/font-png/xinyongqia.png" mode="" />
+        <text>信用卡</text>
+    </view>
+    <view>
+        <image class="main-image" src="../asset/font-png/icon-12.png" mode="" />
+        <text>购物车</text>
+    </view>
+    <view>
+        <image class="main-image" src="../asset/font-png/taobao.png" mode="" />
+        <text>淘宝</text>
+    </view>
+    <view>
+        <image class="main-image" src="../asset/font-png/xinyongqia.png" mode="" />
+        <text>信用卡</text>
+    </view>
+    <view>
+        <image class="main-image" src="../asset/font-png/icon-12.png" mode="" />
+        <text>购物车</text>
+    </view>
+  </view>
+</view>

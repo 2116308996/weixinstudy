@@ -1,0 +1,20 @@
+<!--pages/wxif/wxif.wxml-->
+<text>pages/wxif/wxif.wxml</text>
+<view >
+  <view wx:if="{{sex==1}}">
+    男
+  </view>
+  <view wx:else="{{sex==2}}">
+    女
+  </view>
+  <!-- wx:if==v-if
+  hidden==v-show -->
+  <!-- block==template -->
+  <block>
+  aaa
+  </block>
+  <!-- wx:for-index="ids" wx:for-item="ids" 修改索引名字 -->
+  <view wx:for="{{list}}" wx:key="item">
+    <text>{{index}}-{{item}}</text>
+  </view>
+</view>

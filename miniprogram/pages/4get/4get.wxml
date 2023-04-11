@@ -1,0 +1,7 @@
+<!--pages/4get/4get.wxml-->
+<text>pages/4get/4get.wxml</text>
+<button bindtap="getdata">发起get请求</button>
+<button bindtap="postdata">发起post请求</button>
+<button><navigator open-type="navigateBack"  delta="1">后退</navigator></button>
+<button bindtap="hreftab">跳转到tabbar</button>
+<button bindtap="hreflist">跳转到list</button>

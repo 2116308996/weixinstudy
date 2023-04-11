@@ -1,0 +1,45 @@
+
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/2typescript/2typescript",
+    "pages/1list/1list",
+    "pages/logs/logs",
+    "pages/3wxif/3wxif",
+    "pages/4get/4get",
+    "pages/5shouye/5shouye",
+    "pages/6loading/6loading"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#eee",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "小程序学习",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": false,
+    "selectedColor": "#ccc",
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "主页",
+      "iconPath": "./pages/asset/font-png/shouye.png",
+      "selectedIconPath": "./pages/asset/font-png/shouye.png"
+    },
+    {
+      "pagePath": "pages/5shouye/5shouye",
+      "text": "首页",
+      "iconPath": "./pages/asset/font-png/taobao.png",
+      "selectedIconPath": "./pages/asset/font-png/taobao.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "启动日志",
+      "iconPath": "./pages/asset/font-png/yonghu.png",
+      "selectedIconPath": "./pages/asset/font-png/yonghu.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

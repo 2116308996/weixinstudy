@@ -1,0 +1,55 @@
+/* pages/list/list.wxss */
+.box1 {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  line-height: 100px;
+  justify-content: space-around;
+  view{
+    width: 100px;
+  }
+  :nth-child(1) {
+    background-color: red;
+  }
+
+  :nth-child(2) {
+    background-color: yellow;
+  }
+
+  :nth-child(3) {
+    background-color: blue;
+  }
+}
+.box2{
+  height: 150px;
+  width: 50%;
+  view{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+  view:nth-child(1) {
+    background-color: red;
+  }
+
+  :nth-child(2) {
+    background-color: yellow;
+  }
+
+  :nth-child(3) {
+    background-color: blue;
+  }
+}
+.box3{
+  height: 100px;
+  swiper-item{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+image{
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+}

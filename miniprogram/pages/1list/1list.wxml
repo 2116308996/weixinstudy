@@ -1,0 +1,48 @@
+<!--pages/list/list.wxml-->
+<view class="box1">
+  <view>
+    a
+  </view>
+  <view>
+    b
+  </view>
+  <view>
+    c
+  </view>
+</view>
+<scroll-view scroll-y class="box2">
+  <view>
+    a
+  </view>
+  <view>
+    b
+  </view>
+  <view>
+    c
+  </view>
+</scroll-view>
+<swiper class="box3"  	indicator-dots="true">
+  <swiper-item>
+    a
+  </swiper-item>
+  <swiper-item>
+    b
+  </swiper-item>
+  <swiper-item>
+    c
+  </swiper-item>
+</swiper>
+<view>
+  <text user-select>18473939371</text>
+  <text>{{name}}</text>
+  <rich-text nodes="<h1 style='color:red'>表题</h1>"/>
+</view>
+<view style="width: 100px;">
+<image src="../asset/image/1.jpg" mode="widthFix"/>
+  <button bindtap="click1" size="mini" plain type="primary" style="width: auto;">12</button>
+</view>
+<text>{{name}}</text>
+<view>
+  <input style="border: 1px solid #eee;" type="text" bindinput="click3" model:value="{{name}}"/>
+</view>
+<button bindtap="click2" data-info="{{2}}" data-name="zhangsan">按钮</button>

@@ -1,0 +1,11 @@
+<!--pages/typescript/typescript.wxml-->
+<text>pages/typescript/typescript.wxml</text>
+<view>
+  <button bindtap="click">{{name}}</button>
+  <view style="height: 20px;width: 100px;border: 1px solid black;">
+    <input type="text" model:value="{{name}}" bindinput="click2"/>
+  </view>
+  <view>
+    {{name}}
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/main/main.wxml-->
+<view>
+  <view class="box1">
+    <view>
+      <button><navigator url="../1list/1list">1list</navigator></button>
+    </view>
+    <view>
+      <button><navigator url="../2typescript/2typescript">2typescript</navigator></button>
+    </view>
+    <view>
+      <button><navigator url="../3wxif/3wxif">3渲染</navigator></button>
+    </view>
+    <view>
+      <button><navigator url="../4get/4get">4数据请求</navigator></button>
+    </view>
+    <view>
+      <button><navigator url="../5shouye/5shouye" open-type="switchTab">5首页</navigator></button>
+    </view>
+    <view>
+      <button><navigator url="../6loading/6loading">6下拉刷新</navigator></button>
+    </view>
+  </view>
+</view>
