@@ -1,4 +1,5 @@
 <!--pages/wxif/wxif.wxml-->
+<wxs src="./wxin.wxs" module="wxin"/>
 <text>pages/wxif/wxif.wxml</text>
 <view >
   <view wx:if="{{sex==1}}">
@@ -18,3 +19,19 @@
     <text>{{index}}-{{item}}</text>
   </view>
 </view>
+<view>
+  {{mod1.toUpper(name)}}
+  {{mod1.add(3,4)}}
+</view>
+<view>
+  {{wxin.add(1,2)}}
+  {{wxin.aee(1,2)}}
+</view>
+<wxs module="mod1">
+  module.exports.toUpper=function(str){
+    return str.toUpperCase()
+  }
+  module.exports.add=function(a,b){
+    return a+b
+  }
+</wxs>

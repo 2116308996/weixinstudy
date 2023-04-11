@@ -6,7 +6,8 @@ Page({
    */
   data: {
     sex:1,
-    list:["a","b","c","d"]
+    list:["a","b","c","d"],
+    name:"zhuhui"
   },
 
   /**
