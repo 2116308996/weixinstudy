@@ -17,21 +17,71 @@ Page({
       id:3,
       url:"../asset/image/10.jpg"
     }
+    ],
+    datalist:[
+      {
+        id:1,
+        name:"美食",
+        icon:"../asset/font-png/taobao.png"
+      },
+      {
+        id:2,
+        name:"洗浴足疗",
+        icon:"../asset/font-png/xinyongqia.png"
+      },
+      {
+        id:3,
+        name:"结婚啦",
+        icon:"../asset/font-png/icon-12.png"
+      },
+      {
+        id:4,
+        name:"卡拉OK",
+        icon:"../asset/font-png/taobao.png"
+      },
+      {
+        id:5,
+        name:"找工作",
+        icon:"../asset/font-png/xinyongqia.png"
+      },
+      {
+        id:6,
+        name:"辅导班",
+        icon:"../asset/font-png/icon-12.png"
+      },
+      {
+        id:7,
+        name:"洗车保养",
+        icon:"../asset/font-png/taobao.png"
+      },
+      {
+        id:8,
+        name:"租房",
+        icon:"../asset/font-png/xinyongqia.png"
+      },
+      {
+        id:9,
+        name:"装修",
+        icon:"../asset/font-png/icon-12.png"
+      }
     ]
   },
-
+gofood(){
+  wx.navigateTo({
+    url:"/pages/5shouye/food/food"
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad() {
-
+    
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-
+    
   },
 
   /**

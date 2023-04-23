@@ -1,15 +1,15 @@
 // pages/typescript/typescript.ts
 interface Obj{
-  user:number[]
+  user:number[],
   add:(this:Obj,num:number)=>void
 }
-// let obj:Obj={
-//   user:[1,2,3],
-//   add(this:Obj,num:number){
-//     this.user
-//   }
-// }
-// obj.add(3)
+let obj:Obj={
+  user:[1,2,3],
+  add(this:Obj,num:number){
+    this.user.push(num)
+  }
+}
+obj.add(3)
 interface Man{
   name:string
 }
@@ -32,13 +32,13 @@ Page({
       name:"data"
     })
     console.log( this.data.name)
-    // as({
-    //   user:[2,3,4],
-    //   add(this:Obj,num:number){
-    //     this.user
-    //   },
-    //   name:"zhuhui"
-    // })
+    as({
+      user:[2,3,4],
+      add(this:Obj,num:number){
+        this.user.push(num)
+      },
+      name:"zhuhui"
+    })
     bs({
       name:"zhuhu"
     })

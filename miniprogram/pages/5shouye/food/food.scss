@@ -1,0 +1,29 @@
+/* pages/5shouye/food/food.wxss */
+.shop{ 
+  height: 250rpx;
+  margin: 15rpx;
+  border:1px solid #ccc ;
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+  border-radius: 8rpx;
+  .thumb{
+    image{
+      width: 250rpx;
+      height: 250rpx;
+      display: block;
+    }
+  }
+  >view{
+    float: left;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450rpx;
+    height: 250rpx;
+    font-size: 26rpx;
+    .head1{
+      font-weight: bold;
+    }
+  }
+}

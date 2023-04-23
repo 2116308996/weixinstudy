@@ -9,6 +9,7 @@
     "pages/3wxif/3wxif",
     "pages/4get/4get",
     "pages/5shouye/5shouye",
+    "pages/5shouye/food/food",
     "pages/6loading/6loading"
   ],
   "window": {
@@ -40,6 +41,6 @@
       "selectedIconPath": "./pages/asset/font-png/yonghu.png"
     }]
   },
-  "style": "v2",
+  
   "sitemapLocation": "sitemap.json"
 }

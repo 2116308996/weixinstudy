@@ -23,8 +23,11 @@
   },
   "include": [
     "./**/*.ts"
-  ],
+, "miniprogram/pages/main/tools.wxs"],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "paths": {
+    "tdesign-miniprogram/*":["./miniprogram/miniprogram_npm/tdesign-miniprogram/*"]
+  }
 }

@@ -2,22 +2,22 @@
 <view>
   <view class="box1">
     <view>
-      <button><navigator url="../1list/1list">1list</navigator></button>
+      <button bindtap="goToRoute" data-n="1">1list</button>
     </view>
     <view>
-      <button><navigator url="../2typescript/2typescript">2typescript</navigator></button>
+      <button bindtap="goToRoute" data-n="2">2typescript</button>
     </view>
     <view>
-      <button><navigator url="../3wxif/3wxif">3渲染</navigator></button>
+      <button bindtap="goToRoute" data-n="3">3渲染</button>
     </view>
     <view>
-      <button><navigator url="../4get/4get">4数据请求</navigator></button>
+      <button bindtap="goToRoute" data-n="4">4数据请求</button>
     </view>
     <view>
-      <button><navigator url="../5shouye/5shouye" open-type="switchTab">5首页</navigator></button>
+      <button bindtap="goToRoute" data-n="5">5首页</button>
     </view>
     <view>
-      <button><navigator url="../6loading/6loading">6下拉刷新</navigator></button>
+      <button bindtap="goToRoute" data-n="6">6下拉刷新</button>
     </view>
   </view>
 </view>

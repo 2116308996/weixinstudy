@@ -5,3 +5,6 @@
 <button><navigator open-type="navigateBack"  delta="1">后退</navigator></button>
 <button bindtap="hreftab">跳转到tabbar</button>
 <button bindtap="hreflist">跳转到list</button>
+<view class="tbutton">
+  <t-button  theme="primary" size="medium" >tdesing</t-button>
+</view>

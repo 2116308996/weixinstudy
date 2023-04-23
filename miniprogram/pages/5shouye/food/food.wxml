@@ -1,0 +1,17 @@
+<!--pages/5shouye/food/food.wxml-->
+
+<view>
+  <!-- <button bindtap="clickshoplist">按钮</button> -->
+  <view class="shop" wx:for="{{shoplist}}" wx:key="item">
+    <view class="thumb">
+      <image src="{{item.images[0]}}" mode=""/>
+    </view>
+    <view class="info">
+      <text class="head1">{{item.name}}</text>
+      <text>地址：{{item.address}}</text>
+      <text>电话：{{tools.splitPhone(item.phone)}}</text>
+      <text>营业时间：{{item.businessHours}}</text>
+    </view>
+  </view>
+</view>
+<wxs src="../../main/tools.wxs" module="tools"></wxs>
