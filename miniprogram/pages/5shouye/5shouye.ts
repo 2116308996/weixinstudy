@@ -7,62 +7,62 @@ Page({
   data: {
     swiperlist:[{
       id:1,
-      url:"../asset/image/13.jpg"
+      url:"/assets/image/13.jpg"
     },
     {
       id:2,
-      url:"../asset/image/12.jpg"
+      url:"/assets/image/12.jpg"
     },
     {
       id:3,
-      url:"../asset/image/10.jpg"
+      url:"/assets/image/10.jpg"
     }
     ],
     datalist:[
       {
         id:1,
         name:"美食",
-        icon:"../asset/font-png/taobao.png"
+        icon:"/assets/font-png/taobao.png"
       },
       {
         id:2,
         name:"洗浴足疗",
-        icon:"../asset/font-png/xinyongqia.png"
+        icon:"/assets/font-png/xinyongqia.png"
       },
       {
         id:3,
         name:"结婚啦",
-        icon:"../asset/font-png/icon-12.png"
+        icon:"/assets/font-png/icon-12.png"
       },
       {
         id:4,
         name:"卡拉OK",
-        icon:"../asset/font-png/taobao.png"
+        icon:"/assets/font-png/taobao.png"
       },
       {
         id:5,
         name:"找工作",
-        icon:"../asset/font-png/xinyongqia.png"
+        icon:"/assets/font-png/xinyongqia.png"
       },
       {
         id:6,
         name:"辅导班",
-        icon:"../asset/font-png/icon-12.png"
+        icon:"/assets/font-png/icon-12.png"
       },
       {
         id:7,
         name:"洗车保养",
-        icon:"../asset/font-png/taobao.png"
+        icon:"/assets/font-png/taobao.png"
       },
       {
         id:8,
         name:"租房",
-        icon:"../asset/font-png/xinyongqia.png"
+        icon:"/assets/font-png/xinyongqia.png"
       },
       {
         id:9,
         name:"装修",
-        icon:"../asset/font-png/icon-12.png"
+        icon:"/assets/font-png/icon-12.png"
       }
     ]
   },

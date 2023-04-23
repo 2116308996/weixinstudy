@@ -38,7 +38,7 @@
   <rich-text nodes="<h1 style='color:red'>表题</h1>"/>
 </view>
 <view style="width: 100px;">
-<image src="../asset/image/1.jpg" mode="widthFix"/>
+<image src="/assets/image/1.jpg" mode="widthFix"/>
   <button bindtap="click1" size="mini" plain type="primary" style="width: auto;">12</button>
 </view>
 <text>{{name}}</text>
