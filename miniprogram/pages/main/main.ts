@@ -5,47 +5,54 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+     urllist:[{
+       url:"/pages/1list/1list",
+       text:"1list",
+       tab:false
+     },
+     {
+      url:"/pages/2typescript/2typescript",
+      text:"2typescript",
+      tab:false
+    },
+    {
+      url:"/pages/3wxif/3wxif",
+      text:"3渲染",
+      tab:false
+    },
+    {
+      url:"/pages/4get/4get",
+      text:"4数据请求",
+      tab:false
+    },
+    {
+      url:"/pages/5shouye/5shouye",
+      text:"5首页",
+      tab:true
+    },
+    {
+      url:"/pages/6loading/6loading",
+      text:"6下拉刷新",
+      tab:false
+    },
+    {
+      url:"/pages/7conponent/7conponent",
+      text:"7组件",
+      tab:false
+    }
+    ]
   },
   goToRoute(e:any){
-    switch (e.target.dataset.n){
-      case "1":{
-        console.log("111")
-        wx.navigateTo({
-          url:"/pages/1list/1list"
-        })
-        break;
-      }
-      case "2":{
-        wx.navigateTo({
-          url:"/pages/2typescript/2typescript"
-        })
-        break;
-      }
-      case "3":{
-        wx.navigateTo({
-          url:"/pages/3wxif/3wxif"
-        })
-        break;
-      }
-      case "4" : {
-        wx.navigateTo({
-          url:"/pages/4get/4get"
-        })
-        break;
-      }
-      case "5":{
-        wx.switchTab({
-          url:"/pages/5shouye/5shouye"
-        })
-        break;
-      }
-      case "6":{
-        wx.navigateTo({
-          url:"/pages/6loading/6loading"
-        })
-        break;
-      }
+    console.log(e)
+    console.log(e.target.dataset.n)
+    if(e.target.dataset.n.tab){
+      wx.switchTab({
+        url:e.target.dataset.n.url
+      })
+    }else{
+      wx.navigateTo({
+        url:e.target.dataset.n.url
+      })
     }
   },
   /**

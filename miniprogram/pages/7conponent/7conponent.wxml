@@ -1,0 +1,14 @@
+<!--pages/7conponent/7conponent.wxml-->
+<text>pages/7conponent/7conponent.wxml</text>
+<view>
+  <test1 class="test1" max='9' min='0' bind:sync="addcount"></test1>
+  <view>
+    父组件count={{count}}
+  </view>
+  <text>{{time}}</text>
+  <colorrgb max='9' min='0'></colorrgb>
+  <dataa>
+  <view slot="before">before</view>
+  <view slot="after">after</view>
+  </dataa>
+</view>

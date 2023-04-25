@@ -1,23 +1,8 @@
 <!--pages/main/main.wxml-->
 <view>
   <view class="box1">
-    <view>
-      <button bindtap="goToRoute" data-n="1">1list</button>
-    </view>
-    <view>
-      <button bindtap="goToRoute" data-n="2">2typescript</button>
-    </view>
-    <view>
-      <button bindtap="goToRoute" data-n="3">3渲染</button>
-    </view>
-    <view>
-      <button bindtap="goToRoute" data-n="4">4数据请求</button>
-    </view>
-    <view>
-      <button bindtap="goToRoute" data-n="5">5首页</button>
-    </view>
-    <view>
-      <button bindtap="goToRoute" data-n="6">6下拉刷新</button>
+    <view wx:for="{{urllist}}" wx:key="item">
+      <button bindtap="goToRoute" data-n="{{item}}">{{item.text}}</button>
     </view>
   </view>
 </view>

@@ -1,0 +1,13 @@
+<!--Components/1test/1test.wxml-->
+<text>Components/1test/1test.wxml</text>
+<view>
+<view>
+  max:{{max}}---min:{{min}}
+</view>
+  <view>
+    {{count}}
+  </view>
+  <view>
+    <t-button bindtap="addcount" theme="primary" size="large">增加1</t-button>
+  </view>
+</view>

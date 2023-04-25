@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-input": "tdesign-miniprogram/input/input",
+    "t-row": "tdesign-miniprogram/row/row",
+    "t-col": "tdesign-miniprogram/col/col"
+  }
+}

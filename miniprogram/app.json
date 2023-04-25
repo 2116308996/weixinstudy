@@ -10,7 +10,8 @@
     "pages/4get/4get",
     "pages/5shouye/5shouye",
     "pages/5shouye/food/food",
-    "pages/6loading/6loading"
+    "pages/6loading/6loading",
+    "pages/7conponent/7conponent"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -18,6 +19,10 @@
     "navigationBarBackgroundColor": "#2b4b6b",
     "navigationBarTitleText": "小程序学习",
     "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "t-row": "tdesign-miniprogram/row/row",
+    "t-col": "tdesign-miniprogram/col/col"
   },
   "tabBar": {
     "custom": false,
@@ -41,6 +46,6 @@
       "selectedIconPath": "/assets/font-png/yonghu.png"
     }]
   },
-  
+
   "sitemapLocation": "sitemap.json"
 }

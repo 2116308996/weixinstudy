@@ -1,0 +1,19 @@
+<!--components/2colorrgb/2colorrgb.wxml-->
+<view>
+  <view class="box1" style="background-color: rgb({{color}});">
+    {{color}}
+  </view>
+  <view class="box2">
+    <t-row>
+      <t-col span="8">
+        <t-input label="R" bindchange="changer" placeholder="请输入" value="{{rgb.r}}"></t-input>
+      </t-col>
+      <t-col span="8">
+        <t-input label="G" bindchange="changeg" placeholder="请输入" value="{{rgb.g}}"></t-input>
+      </t-col>
+      <t-col span="8">
+        <t-input label="B" bindchange="changeb" placeholder="请输入" value="{{rgb.b}}"></t-input>
+      </t-col>
+    </t-row>
+  </view>
+</view>

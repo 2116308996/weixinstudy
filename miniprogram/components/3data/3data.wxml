@@ -1,0 +1,8 @@
+<!--components/3data/3data.wxml-->
+<view class="box">
+  <view bindtap="test1">11111111111111</view>
+  <slot name="before"></slot>
+  <view>22222222222222</view>
+  <slot name="after"></slot>
+  <view>33333333333333</view>
+</view>
