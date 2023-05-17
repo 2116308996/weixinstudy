@@ -8,3 +8,9 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+//全局定义css变量
+page{
+  //修改vant默认变量
+  --button-danger-background-color:#C00000;
+  --button-danger-border-color:#D60000;
+}

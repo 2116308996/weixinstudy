@@ -1,1 +1,12 @@
 /* pages/7conponent/7conponent.wxss */
+html{
+  //定义css变量
+  --main-color:red;
+}
+.box1{
+  //定义css变量
+  --main-color:blue;
+}
+.box2{
+  background-color:var(--main-color) ;
+}

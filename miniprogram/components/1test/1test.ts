@@ -1,7 +1,7 @@
 // Components/1test/1test.ts
 Component({
   options: {
-    //启用样式隔离
+    //启用样式隔离  apply-shared shared
     styleIsolation: 'isolated'
   },
   /**
@@ -31,7 +31,7 @@ Component({
   },
   //数据监听
   observers: {
-    'count,max': function (newcount,newmax) {
+    'count,max':  (newcount,newmax)=> {
       console.log(newcount,newmax)
     }
   },

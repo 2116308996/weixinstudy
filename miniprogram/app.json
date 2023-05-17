@@ -11,7 +11,9 @@
     "pages/5shouye/5shouye",
     "pages/5shouye/food/food",
     "pages/6loading/6loading",
-    "pages/7conponent/7conponent"
+    "pages/7conponent/7conponent",
+    "pages/8vant/8vant",
+    "pages/9promise/9promise"
   ],
   "window": {
     "backgroundTextStyle": "dark",

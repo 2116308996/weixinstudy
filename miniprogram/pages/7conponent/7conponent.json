@@ -3,6 +3,7 @@
   "usingComponents": {
     "test1":"/components/1test/1test",
     "colorrgb":"/components/2colorrgb/2colorrgb",
-    "dataa":"/components/3data/3data"
+    "dataa":"/components/3data/3data",
+    "van-button":"@vant/weapp/button/index"
   }
 }

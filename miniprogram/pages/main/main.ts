@@ -39,6 +39,16 @@ Page({
       url:"/pages/7conponent/7conponent",
       text:"7组件",
       tab:false
+    },
+    {
+      url:"/pages/8vant/8vant",
+      text:"vant和css变量",
+      tab:false
+    },
+    {
+      url:"/pages/9promise/9promise",
+      text:"API的Promise",
+      tab:false
     }
     ]
   },

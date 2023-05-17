@@ -11,4 +11,5 @@
   <view slot="before">before</view>
   <view slot="after">after</view>
   </dataa>
+  <van-button type="danger">危险按钮</van-button>
 </view>

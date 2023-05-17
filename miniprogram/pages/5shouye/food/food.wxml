@@ -14,4 +14,4 @@
     </view>
   </view>
 </view>
-<wxs src="../../main/tools.wxs" module="tools"></wxs>
+<wxs src="/pages/main/tools.wxs" module="tools"></wxs>

@@ -1,0 +1,11 @@
+<!--pages/8vant/8vant.wxml-->
+<text>pages/8vant/8vant.wxml</text>
+<view class="box1" >
+  <view class="box2" wx:for="{{list}}" wx:key="item">
+  {{item.id}}
+  </view>
+</view>
+<view class="box3">
+  <v-button type="primary">按钮</v-button>
+  <v-button type="danger">按钮</v-button>
+</view>
